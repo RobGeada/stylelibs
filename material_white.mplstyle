@@ -1,0 +1,45 @@
+# Material matplotlib style (for white backgrounds)
+
+patch.linewidth: 0.5
+patch.facecolor: 348ABD  # #39ADB5
+patch.edgecolor: EEEEEE # #EEEEEE
+patch.antialiased: True
+
+font.size: 10.0
+
+axes.facecolor: DDDDDD # #DDDDDD
+axes.edgecolor: white
+axes.linewidth: 1
+axes.grid: True
+axes.titlesize: x-large
+axes.labelsize: large
+axes.labelcolor: black
+axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
+
+text.color: black
+
+
+# axes.prop_cycle: cycler('color', ['FFCB6B','FF5370', '39ADB5', '7C4DFF', '546E7A', '91B859', 'F07178'])
+#                   # #FF5370 : red
+#                   # #39ADB5 : blue
+#                   # #7C4DFF : purple
+#                   # #546E7A : gray
+#                   # #FFCB6B : yellow
+#                   # #91B859 : green
+#                   # #F07178 : pink
+
+xtick.color: black
+xtick.direction: out
+
+ytick.color: black
+ytick.direction: out
+
+legend.facecolor: ffffff
+
+grid.color: white
+grid.linestyle: -    # solid line
+
+figure.figsize: 16,9
+figure.dpi: 100
+figure.facecolor: ffffff
+figure.edgecolor: 0.50
